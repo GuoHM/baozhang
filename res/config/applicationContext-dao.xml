@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+	default-autowire="byName" default-lazy-init="true">
+	<bean id="baozhangDao" class="dao.impl.BaozhangDaoImpl"></bean>
+	<bean id="allConditionsDao" class="dao.impl.AllConditionsDaoImpl"></bean>
+	<bean id="allConditionsYearDao" class="dao.impl.AllConditionsYearDaoImpl"></bean>
+	<bean id="tenKVDataDao" class="dao.impl.TenKVDataDaoImpl"></bean>
+</beans>

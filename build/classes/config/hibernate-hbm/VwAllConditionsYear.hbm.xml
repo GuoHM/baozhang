@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-12-22 15:36:44 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="bean.VwAllConditionsYear" table="vw_AllConditionsYear" schema="dbo" catalog="baozhang">
+        <composite-id name="id" class="bean.VwAllConditionsYearId">
+            <key-property name="totalElectricity" type="big_decimal">
+                <column name="TotalElectricity" precision="38" scale="1" />
+            </key-property>
+            <key-property name="totalAmount" type="big_decimal">
+                <column name="TotalAmount" precision="38" />
+            </key-property>
+            <key-property name="electricType" type="string">
+                <column name="ElectricType" length="30" />
+            </key-property>
+            <key-property name="dateYear" type="string">
+                <column name="DateYear" length="10" />
+            </key-property>
+            <key-property name="districtCompany" type="string">
+                <column name="DistrictCompany" length="50" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

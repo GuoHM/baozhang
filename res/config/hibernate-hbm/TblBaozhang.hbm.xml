@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-12-20 17:03:27 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="bean.TblBaozhang" table="tbl_baozhang" schema="dbo" catalog="baozhang">
+        <composite-id name="id" class="bean.TblBaozhangId">
+            <key-property name="status" type="string">
+                <column name="Status" length="20" />
+            </key-property>
+            <key-property name="branchCompany" type="string">
+                <column name="BranchCompany" length="50" />
+            </key-property>
+            <key-property name="districtCompany" type="string">
+                <column name="DistrictCompany" length="50" />
+            </key-property>
+            <key-property name="costObjectId" type="string">
+                <column name="CostObjectId" length="50" />
+            </key-property>
+            <key-property name="costObjectName" type="string">
+                <column name="CostObjectName" length="200" />
+            </key-property>
+            <key-property name="entityId" type="string">
+                <column name="EntityId" length="25" />
+            </key-property>
+            <key-property name="entityName" type="string">
+                <column name="EntityName" length="200" />
+            </key-property>
+            <key-property name="costType" type="string">
+                <column name="CostType" length="10" />
+            </key-property>
+            <key-property name="accountDate" type="string">
+                <column name="AccountDate" length="15" />
+            </key-property>
+            <key-property name="accountPerson" type="string">
+                <column name="AccountPerson" length="8" />
+            </key-property>
+            <key-property name="startedDate" type="string">
+                <column name="StartedDate" length="50" />
+            </key-property>
+            <key-property name="endedDate" type="string">
+                <column name="EndedDate" length="50" />
+            </key-property>
+            <key-property name="accountType" type="string">
+                <column name="AccountType" length="10" />
+            </key-property>
+            <key-property name="businessType" type="string">
+                <column name="BusinessType" length="15" />
+            </key-property>
+            <key-property name="accountMethod" type="string">
+                <column name="AccountMethod" length="50" />
+            </key-property>
+            <key-property name="electricType" type="string">
+                <column name="ElectricType" length="30" />
+            </key-property>
+            <key-property name="electricAmount" type="big_decimal">
+                <column name="ElectricAmount" precision="18" scale="1" />
+            </key-property>
+            <key-property name="electricPrice" type="big_decimal">
+                <column name="ElectricPrice" precision="18" />
+            </key-property>
+            <key-property name="accountAmount" type="big_decimal">
+                <column name="AccountAmount" precision="18" />
+            </key-property>
+            <key-property name="tax" type="big_decimal">
+                <column name="Tax" precision="18" />
+            </key-property>
+            <key-property name="payMethod" type="string">
+                <column name="PayMethod" length="10" />
+            </key-property>
+            <key-property name="utilitiesFee" type="big_decimal">
+                <column name="UtilitiesFee" scale="4" />
+            </key-property>
+            <key-property name="sewageFee" type="big_decimal">
+                <column name="SewageFee" scale="4" />
+            </key-property>
+            <key-property name="garbageFee" type="big_decimal">
+                <column name="GarbageFee" scale="4" />
+            </key-property>
+            <key-property name="accountCenterName" type="string">
+                <column name="AccountCenterName" length="50" />
+            </key-property>
+            <key-property name="accountCenterId" type="string">
+                <column name="AccountCenterId" length="25" />
+            </key-property>
+            <key-property name="userId" type="string">
+                <column name="UserId" length="50" />
+            </key-property>
+            <key-property name="advancePayment" type="string">
+                <column name="AdvancePayment" length="50" />
+            </key-property>
+            <key-property name="settlementType" type="string">
+                <column name="SettlementType" length="15" />
+            </key-property>
+            <key-property name="billType" type="string">
+                <column name="BillType" length="30" />
+            </key-property>
+            <key-property name="is10kv" type="string">
+                <column name="Is10KV" length="10" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

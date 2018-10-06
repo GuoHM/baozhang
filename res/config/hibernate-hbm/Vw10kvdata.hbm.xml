@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-1-3 15:05:26 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="bean.Vw10kvdata" table="vw_10KVData" schema="dbo" catalog="baozhang">
+        <composite-id name="id" class="bean.Vw10kvdataId">
+            <key-property name="entityName" type="string">
+                <column name="EntityName" length="200" />
+            </key-property>
+            <key-property name="totalElectricity" type="big_decimal">
+                <column name="TotalElectricity" precision="38" scale="1" />
+            </key-property>
+            <key-property name="accountDate" type="string">
+                <column name="AccountDate" length="15" />
+            </key-property>
+            <key-property name="userId" type="string">
+                <column name="UserId" length="50" />
+            </key-property>
+            <key-property name="districtCompany" type="string">
+                <column name="DistrictCompany" length="50" />
+            </key-property>
+            <key-property name="totalAmount" type="big_decimal">
+                <column name="TotalAmount" precision="38" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

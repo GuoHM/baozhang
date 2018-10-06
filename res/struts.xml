@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<package name="baozhang" extends="struts-default" namespace="/">
+		</package>
+	<package name="json" extends="json-default">
+		<action name="initData" method="initData" class="baozhangAction">
+			<result  type="json" />
+		</action>
+		<action name="getData" method="getData" class="baozhangAction">
+			<result  type="json" />
+		</action>
+		<action name="initYear" method="initYear" class="calculateAction">
+			<result  type="json" />
+		</action>
+		<action name="calculate" method="calculate" class="calculateAction">
+			<result  type="json" />
+		</action>
+		<action name="getCityData" method="getCityData" class="calculateAction">
+			<result  type="json" />
+		</action>
+		<action name="getDistrictConditions" method="getDistrictConditions" class="calculateAction">
+			<result  type="json" />
+		</action>
+		<action name="setChart" method="setChart" class="analysisAction">
+			<result  type="json" />
+		</action>
+		<action name="setEntityChart" method="setEntityChart" class="analysisAction">
+			<result  type="json" />
+		</action>
+		<action name="setPredictionChart" method="setPredictionChart" class="analysisAction">
+			<result  type="json" />
+		</action>
+		<action name="fixData" method="fixData" class="analysisAction">
+			<result  type="json" />
+		</action>
+	</package>
+</struts>
