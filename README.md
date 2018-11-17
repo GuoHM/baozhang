@@ -31,4 +31,7 @@
 <img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%879.png?raw=true">
 
 <h4>Comparison of two models</h4>
-<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%880.png?raw=true">
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E6%97%A0%E6%A0%87%E9%A2%98.png?raw=true">
+<p>We can see that the Holt-winters model did better than the ARIMA model in this case.</p>
+<h4>Differrence report for the actual data and the Holt-Winters</h4>
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E6%97%A0%E6%A0%87%E9%A2%982.png?raw=true">
