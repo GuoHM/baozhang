@@ -17,3 +17,18 @@
 <h4>Analysis Data</h4>
 <img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%874.png?raw=true">
 <img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%875.png?raw=true">
+
+<h4>Row Data</h4>
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%876.png?raw=true">
+
+<h4>Cleaned Data</h4>
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%877.png?raw=true">
+
+<h4>Prediction result for ARIMA model</h4>
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%878.png?raw=true">
+
+<h4>Prediction result for Holt-Winters model</h4>
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%879.png?raw=true">
+
+<h4>Comparison of two models</h4>
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%880.png?raw=true">
