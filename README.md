@@ -9,3 +9,11 @@
 <h4>Financial Reporting</h4>
 <img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%872.png?raw=true">
 <img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%873.png?raw=true">
+
+<h4>Financial Reporting</h4>
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%872.png?raw=true">
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%873.png?raw=true">
+
+<h4>Analysis Data</h4>
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%874.png?raw=true">
+<img src="https://github.com/GuoHM/baozhang/blob/master/WebContent/img/%E5%9B%BE%E7%89%875.png?raw=true">
